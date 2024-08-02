@@ -1,0 +1,25 @@
+{
+  "name": "visual-cloudformation",
+  "version": "0.0.1",
+  "description": "Visualize AWS CloudFormation templates to better understand what is created for you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliasericsson/visual-cloudformation.git"
+  },
+  "keywords": [
+    "Visualization",
+    "AWS",
+    "CloudFormation",
+    "CLI"
+  ],
+  "author": "Elias Ericsson-Rydberg",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/eliasericsson/visual-cloudformation/issues"
+  },
+  "homepage": "https://github.com/eliasericsson/visual-cloudformation#readme"
+}
