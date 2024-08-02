@@ -4,6 +4,7 @@
   "description": "Visualize AWS CloudFormation templates to better understand what is created for you",
   "main": "index.js",
   "scripts": {
+    "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/eliasericsson/visual-cloudformation/issues"
   },
-  "homepage": "https://github.com/eliasericsson/visual-cloudformation#readme"
+  "homepage": "https://github.com/eliasericsson/visual-cloudformation#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.3",
+    "typescript": "^5.5.4"
+  }
 }
